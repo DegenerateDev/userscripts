@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name Streamsnooper: Autoreload & Sort by Views/Time
+// @name Streamsnooper: Reload All & Sort by Views/Time
 // @namespace Violentmonkey Scripts
 // @match https://streamsnooper.com/all-*
 // @grant none
