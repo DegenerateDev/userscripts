@@ -2,6 +2,7 @@
 // @name 1337x.to: Sort Tables by Seeds Descending
 // @namespace Violentmonkey Scripts
 // @match https://1337x.to/*/
+// @icon https://1337x.to/favicon.ico
 // @grant none
 // ==/UserScript==
 
