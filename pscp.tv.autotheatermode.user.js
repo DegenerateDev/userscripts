@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name Pscp.tv: Set Theater Mode Automatically
 // @namespace Violentmonkey Scripts
-// @match https://www.pscp.tv/w/\*
+// @match https://www.pscp.tv/w/*
 // @grant none
 // @run-at document-start
 // @inject-into content
