@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name 1337x.to: Hide Torrents By Keywords
+// @name 1337x.to: Hide HDRips
 // @namespace Violentmonkey Scripts
 // @match https://1337x.to/*/
 // @icon https://1337x.to/favicon.ico
