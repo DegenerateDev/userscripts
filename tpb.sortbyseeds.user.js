@@ -1,8 +1,7 @@
 // ==UserScript==
 // @name ThePirateBay: Sort Results by Seeds
 // @namespace Violentmonkey Scripts
-// @match https://*/user/dauphong/*
-// @match https://*/browse/*
+// @match https://thepiratebay.org/*
 // @grant none
 // ==/UserScript==
 
