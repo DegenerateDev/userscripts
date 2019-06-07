@@ -4,7 +4,6 @@
 // @match https://thepiratebay.org/*
 // @version 0.0.1
 // @grant none
-
 // ==/UserScript==
 // test
 
