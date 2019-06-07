@@ -1,1 +1,1 @@
-npx http-server@0.9.0 -c-1 -i -a 127.0.0.1
+npx http-server@0.9.0 -c-1 -i -a 127.0.0.1 -p 9761
