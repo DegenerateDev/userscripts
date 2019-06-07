@@ -2,11 +2,8 @@
 // @name ThePirateBay: Sort Results by Seeds
 // @namespace Violentmonkey Scripts
 // @match https://thepiratebay.org/*
-// @version 0.0.4
 // @grant none
 // ==/UserScript==
-
-// update test 4
 
 // nth-child needs to be 6 in single-view, 3 in double-view
 let nth_child = document.querySelector('table thead tr.header').children.length === 4 ? 3 : 6
