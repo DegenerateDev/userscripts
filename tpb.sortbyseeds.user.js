@@ -6,18 +6,10 @@
 // @grant none
 // ==/UserScript==
 
-let table = document.querySelector('table#searchResult tbody')
-let rows = table.querySelectorAll('tr')
-let a_rows = Array.from(rows)
-a_rows.pop() // remove pager
-let table_elems = a_rows.map(row => {
-  let tds = row.querySelectorAll('td')
-  return {
-    e: row,
-    s: parseInt(tds[2].textContent,10),
-    l: parseInt(tds[3].textContent,10),
-    n: row.querySelector('.detName').textContent.trim()
-  }
-})
-console.log(table_elems)
-table_elems = table_elems.sort((a, b) => b.s-a.s).forEach(i => table.appendChild(i.e))
+// nth-child needs to be 6 in single-view, 3 in double-view
+let nth_child = document.querySelector('table thead tr.header').children.length === 4 ? 3 : 6
+
+Array.from(document.querySelectorAll(`table tbody tr td:nth-child(${nth_child})`))
+  .map(e => {return {seeds: parseInt(e.textContent), row: e.parentNode}})
+  .sort((e1, e2) => e2.seeds - e1.seeds)
+  .forEach(({row}) => row.parentNode.appendChild(row))
