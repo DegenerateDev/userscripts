@@ -1,8 +1,7 @@
 // ==UserScript==
-// @name 1337x.to: Hide HDRip Torrents
+// @name ThePirateBay: Hide HD-RIP Torrents
 // @namespace Violentmonkey Scripts
-// @match https://1337x.to/*
-// @icon https://1337x.to/favicon.ico
+// @match https://thepiratebay.org/*
 // @grant none
 // ==/UserScript==
 
